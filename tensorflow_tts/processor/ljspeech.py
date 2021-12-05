@@ -137,7 +137,7 @@ class LJSpeechProcessor(BaseProcessor):
     positions = {
         "wave_file": 0,
         "text": 1,
-        "text_norm": 2,
+        "text_norm": 1,
     }
     train_f_name: str = "metadata.csv"
 
